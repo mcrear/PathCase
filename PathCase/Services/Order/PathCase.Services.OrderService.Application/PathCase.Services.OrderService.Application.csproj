@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="MediatR" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Shared\PathCase.Shared.Shared\PathCase.Shared.Shared.csproj" />
+    <ProjectReference Include="..\PathCase.Services.OrderService.Domain\PathCase.Services.OrderService.Domain.csproj" />
+    <ProjectReference Include="..\PathCase.Services.OrderService.Infrastacture\PathCase.Services.OrderService.Infrastacture.csproj" />
+  </ItemGroup>
+
+</Project>

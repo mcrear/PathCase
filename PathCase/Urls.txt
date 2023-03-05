@@ -1,0 +1,16 @@
+Service Url Ports
+
+Identity Server
+http://localhost:5001
+
+Catalog Service
+http://localhost:5100
+
+Cart Service
+http://localhost:5200
+
+Order Service
+http://localhost:5300
+
+Gatewat
+http://localhost:5000
